@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+   
+
+
+
+
+/* ✅ Esto VA FUERA */
+html {
+  scroll-behavior: smooth;
+  
+}
+
