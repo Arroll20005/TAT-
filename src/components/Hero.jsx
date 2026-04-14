@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="hero min-h-[90vh] bg-gradient-to-b from-black/90 to-black bg-cover bg-center" style={{ backgroundImage: "url('/images/tatu-hero.png')" }}>
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center text-white">
         <div >
-           <img src="../../public/images/icons/logoo.png" alt="Logo de Tatuajes" />
+            <img src="/images/icons/logoo.png" alt="Logo de Tatuajes" />
          </div>
       
         <h1 className="text-xl mb-8 max-w-2xl mx-auto text-gray-30 [text-shadow:2px_2px_0_black]">
