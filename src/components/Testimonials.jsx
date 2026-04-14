@@ -5,7 +5,7 @@ const testimonials = [
     id: 1,
     name: "Arlin Paz",
     rating: 5,
-    text: "No le tenia fe, pero veo que me equivoque, el resultado fue increíble. El pene me ha crecido 20 cm mas y ahora las chicas caen solitas, no me lo creo!.",
+    text: "Muy bueno el trabajo que hace este artista. Mis respetos",
     image: "/images/testimonials/1.jpg"
   },
   {

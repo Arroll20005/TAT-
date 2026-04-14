@@ -6,6 +6,8 @@ import Testimonials from './components/Testimonials';
 import LeadForm from './components/LeadForm';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import ScrollImageSequence from './components/ScrollImageSequence';
+import ModalPromo from './components/ModalPromo';
 
 function App() {
   return (
@@ -13,6 +15,14 @@ function App() {
       <Hero />
       <AboutArtist />
       <Portfolio />
+      <ModalPromo />
+      <ScrollImageSequence 
+        imageCount={97} 
+        imagePrefix="frame_" 
+        imageExtension="webp" 
+        startIndex={1} 
+        heightInVh={600} 
+      />
       <Testimonials />
       <LeadForm />
       <FAQ />

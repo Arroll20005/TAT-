@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white">Tatuaje Studio</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Jeff Tattoo</h3>
             <p className="text-gray-400">
               Arte único en tatuajes personalizados. Desde realismo hasta estilos abstractos, cada diseño es una obra maestra que trasciende la piel.
             </p>
@@ -19,13 +19,13 @@ const Footer = () => {
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-.498.286a7 7 0 0011.174 0l-.497-.286a1 1 0 01-.502-1.21l1.498-4.493a1 1 0 01.948-.684H19a2 2 0 012 2v1a2 2 0 01-2 2h-1a1 1 0 00-.948.684l-.498.286a7 7 0 00-11.174 0l-.498-.286a1 1 0 00-.948-.684h-1a2 2 0 01-2-2V5z"></path>
                 </svg>
-                <span>Resbalon, Manabi</span>
+                <span>Resbalon / Rocafuerte / Manabí</span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
-                <span>0957053576</span>
+                <span>+593 98 785 8360</span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@ const Footer = () => {
 </div>
             
             <div className="mt-6 text-center text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} Tatuaje Studio. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} Jeff Tattoo. Todos los derechos reservados.
             </div>
           </div>
         </div>

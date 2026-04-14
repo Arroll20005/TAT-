@@ -4,7 +4,7 @@ const Portfolio = () => {
   
 
   const portafolioItems = []
-    for (let index = 0; index <= 8; index++) {
+    for (let index = 0; index <= 10; index++) {
       portafolioItems.push({ id: `${index}`, src: `/images/gallery/${index}.jpg`, alt: 'Tatuaje de Realismo' });
      
       
@@ -24,7 +24,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="portfolio py-20 bg-black text-white">
+    <section id="portfolio" className="portfolio py-10 bg-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-6 text-gray-200">Portafolio</h2>
@@ -33,32 +33,32 @@ const Portfolio = () => {
           </p>
         </div>
 
-        {/* Carousel */}
-        <div 
-          id="default-carousel" 
-          className="relative w-full" 
-          data-carousel="slide"
-        >
-          {/* Carousel wrapper */}
-          <div className="relative h-96 overflow-hidden rounded-base">
-            {/* Slides */}
-            {portafolioItems.map((item, index) => (
-              <div
-                key={item.id}
-                className={`duration-700 ease-in-out ${
-                  index === activeSlide 
-                    ? 'block absolute inset-0' 
-                    : 'hidden absolute inset-0'
-                }`}
-                data-carousel-item
-              >
-                <img 
-                  src={item.src} 
-                  alt={item.alt} 
-                  className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                />
-              </div>
-            ))}
+         {/* Carousel */}
+         <div 
+           id="default-carousel" 
+           className="relative w-full" 
+           data-carousel="slide"
+         >
+           {/* Carousel wrapper */}
+           <div className="relative h-[500px] overflow-hidden rounded-base">
+             {/* Slides */}
+             {portafolioItems.map((item, index) => (
+               <div
+                 key={item.id}
+                 className={`duration-700 ease-in-out ${
+                   index === activeSlide 
+                     ? 'block absolute inset-0' 
+                     : 'hidden absolute inset-0'
+                 }`}
+                 data-carousel-item
+               >
+                 <img 
+                   src={item.src} 
+                   alt={item.alt} 
+                   className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain"
+                 />
+               </div>
+             ))}
 
             {/* Navigation buttons */}
             <button 

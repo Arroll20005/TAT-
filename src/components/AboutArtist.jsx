@@ -1,20 +1,45 @@
 import React from 'react';
+const features = [
+  {
+    
+  }
+]
 
 const AboutArtist = () => {
+
   return (
     <section className="about-artist py-20 bg-black text-white">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8 text-white">Sobre el Artista</h2>
           <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto">
-             Este artista tatuador se especliza en hacer de tu piel una obra de arte andante. Con un talento y un pulso imprecindible
-          </p>
+             JeffTattoo es un estudio de tatuajes ubicado en Resbalón/Rocafuerte, reconocido por su estilo versátil que va desde el minimalismo hasta el realismo, con un enfoque especial en retratos altamente detallados.</p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+
           <div>
-            <img src="/images/artist/perfil.jpeg" alt="Retrato del artista tatuador" className="rounded-lg shadow-xl w-full h-auto" />
+            <img src="/images/artist/artist.jpg" alt="Retrato del artista tatuador" className="rounded-lg shadow-xl w-full h-auto" />
           </div>
           <div className="space-y-6">
+           <div>
+            <h2 className="text-lg font-bold my-1">¿Qué ofrecemos?</h2>
+            <p className="text-gray-400">
+              Ofrecemos tatuajes personalizados que se adaptan a tu estilo y significado: desde piezas minimalistas y delicadas hasta tatuajes grandes, detallados y realistas, todos realizados con precisión artística y atención al detalle.
+            </p>
+          </div>
+            <div>
+            <h2 className="text-lg font-bold my-1">¿Por qué elegirnos?</h2>
+            <p className="text-gray-400">
+             Porque un tatuaje es para toda la vida, y necesitas a alguien que entienda tu idea y la convierta en arte de verdad. Jeff no solo tatúa, interpreta tu visión y la transforma en una pieza única, con calidad profesional y precios accesibles.
+            </p>
+          </div>
+            <div>
+            <h2 className="text-lg font-bold my-1 ">¿Cómo lo consigo?</h2>
+            <p className="text-gray-400">
+              Es muy fácil: envía un mensaje directo por redes sociales o deja tus datos en el formulario, y recibirás atención personalizada para diseñar tu próximo tatuaje.
+            </p>
+          </div>
+
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
                 <svg className="h-5 w-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
